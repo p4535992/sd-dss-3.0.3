@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tsl:TrustServiceStatusList xmlns:tsl="http://uri.etsi.org/02231/v2#"
+	xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+	xmlns:ecc="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#"
+	xmlns:tslx="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#"
+	Id="tsl-fbfcb640-ad32-4884-ab43-e6fdfdba2890" TSLTag="http://uri.etsi.org/02231/TSLTag">
+	<tsl:SchemeInformation>
+		<tsl:TSLVersionIdentifier>3</tsl:TSLVersionIdentifier>
+		<tsl:TSLSequenceNumber>0</tsl:TSLSequenceNumber>
+		<tsl:TSLType>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/TSLType/generic
+		</tsl:TSLType>
+		<tsl:SchemeOperatorName>
+			<tsl:Name xml:lang="en">FPS Economy, SMEs, Self-employed and
+				Energy - Quality and Security - Information Management</tsl:Name>
+			<tsl:Name xml:lang="nl">FOD Economie, KMO, Middenstand en Energie
+				- Kwaliteit en Veiligheid - Information Management</tsl:Name>
+			<tsl:Name xml:lang="fr">SPF Economie, PME, Classes moyennes et
+				Energie - Qualité et Sécurité - Information Management</tsl:Name>
+			<tsl:Name xml:lang="de">FÖD Wirtschaft, KMU, Mittelstand und
+				Energie - Qualität und Sicherheit - Informationsmanagement
+			</tsl:Name>
+		</tsl:SchemeOperatorName>
+		<tsl:SchemeOperatorAddress>
+			<tsl:PostalAddresses>
+				<tsl:PostalAddress xml:lang="en">
+					<tsl:StreetAddress>NG III - Koning Albert II-laan 16
+					</tsl:StreetAddress>
+					<tsl:Locality>Brussels</tsl:Locality>
+					<tsl:StateOrProvince>Brussels</tsl:StateOrProvince>
+					<tsl:PostalCode>1000</tsl:PostalCode>
+					<tsl:CountryName>BE</tsl:CountryName>
+				</tsl:PostalAddress>
+				<tsl:PostalAddress xml:lang="nl">
+					<tsl:StreetAddress>NG III - Koning Albert II-laan 16
+					</tsl:StreetAddress>
+					<tsl:Locality>Brussel</tsl:Locality>
+					<tsl:StateOrProvince>Brussel</tsl:StateOrProvince>
+					<tsl:PostalCode>1000</tsl:PostalCode>
+					<tsl:CountryName>BE</tsl:CountryName>
+				</tsl:PostalAddress>
+			</tsl:PostalAddresses>
+			<tsl:ElectronicAddress>
+				<tsl:URI>http://economie.fgov.be</tsl:URI>
+				<tsl:URI>mailto:be.sign@economie.fgov.be</tsl:URI>
+			</tsl:ElectronicAddress>
+		</tsl:SchemeOperatorAddress>
+		<tsl:SchemeName>
+			<tsl:Name xml:lang="en">BE:Supervision/Accreditation Status List
+				of certification services from Certification Service Providers,
+				which are supervised/accredited by the referenced Scheme Operator
+				Member State for compliance with the relevant provisions laid down
+				in Directive 1999/93/EC of the European Parliament and of the
+				Council of 13 December 1999 on a Community framework for electronic
+				signatures and its implementation in the referenced Member State’s
+				laws.</tsl:Name>
+		</tsl:SchemeName>
+		<tsl:SchemeInformationURI>
+			<tsl:URI xml:lang="en">http://tsl.belgium.be/</tsl:URI>
+			<tsl:URI xml:lang="nl">http://tsl.belgium.be/nl/</tsl:URI>
+			<tsl:URI xml:lang="fr">http://tsl.belgium.be/fr/</tsl:URI>
+		</tsl:SchemeInformationURI>
+		<tsl:StatusDeterminationApproach>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/StatusDetn/appropriate
+		</tsl:StatusDeterminationApproach>
+		<tsl:SchemeTypeCommunityRules>
+			<tsl:URI>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/schemerules/common
+			</tsl:URI>
+		</tsl:SchemeTypeCommunityRules>
+		<tsl:SchemeTerritory>BE</tsl:SchemeTerritory>
+		<tsl:PolicyOrLegalNotice>
+			<tsl:TSLLegalNotice xml:lang="en">The applicable legal
+				framework for the present TSL implementation of the Trusted List of
+				supervised/accredited Certification Service Providers for Belgium is
+				the Directive 1999/93/EC of the European Parliament and of the
+				Council of 13 December 1999 on a Community framework for electronic
+				signatures and its implementation in Belgian laws. The applicable
+				legal national framework is the Belgian CSP act of 9 July 2001 to
+				create a legal framework for the usage of electronic signatures and
+				certification services.</tsl:TSLLegalNotice>
+		</tsl:PolicyOrLegalNotice>
+		<tsl:HistoricalInformationPeriod>3643
+		</tsl:HistoricalInformationPeriod>
+		
+		<tsl:ListIssueDateTime>2010-09-01T00:00:00.000Z
+		</tsl:ListIssueDateTime>
+		<tsl:NextUpdate>
+			<tsl:dateTime>2012-01-15T00:00:00.000Z</tsl:dateTime>
+		</tsl:NextUpdate>
+		<tsl:DistributionPoints>
+			<tsl:URI>http://tsl.belgium.be/tsl-be.xml</tsl:URI>
+		</tsl:DistributionPoints>
+	</tsl:SchemeInformation>
+</tsl:TrustServiceStatusList>

@@ -1,0 +1,7 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns2:digestDocumentResponse xmlns:ns2="http://ws.dss.markt.ec.europa.eu/">
+         <response>mrEWFeqEkuhyGooDeKVNa8aqeVE=</response>
+      </ns2:digestDocumentResponse>
+   </soap:Body>
+</soap:Envelope>

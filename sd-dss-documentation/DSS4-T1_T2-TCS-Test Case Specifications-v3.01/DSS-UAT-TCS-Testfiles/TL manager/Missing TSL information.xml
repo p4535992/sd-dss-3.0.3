@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tsl:TrustServiceStatusList xmlns:tsl="http://uri.etsi.org/02231/v2#"
+	xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+	xmlns:ecc="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#"
+	xmlns:tslx="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#"
+	Id="tsl-fbfcb640-ad32-4884-ab43-e6fdfdba2890" TSLTag="http://uri.etsi.org/02231/TSLTag">
+	<tsl:SchemeInformation>
+		<tsl:TSLVersionIdentifier>3</tsl:TSLVersionIdentifier>
+		<tsl:TSLSequenceNumber></tsl:TSLSequenceNumber>
+		<tsl:TSLType>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/TSLType/generic
+		</tsl:TSLType>
+		<tsl:SchemeOperatorName>
+		</tsl:SchemeOperatorName>
+		<tsl:SchemeOperatorAddress>
+		</tsl:SchemeOperatorAddress>
+		<tsl:SchemeName>
+		</tsl:SchemeName>
+		<tsl:SchemeInformationURI>
+		</tsl:SchemeInformationURI>
+		<tsl:StatusDeterminationApproach>
+		</tsl:StatusDeterminationApproach>
+		<tsl:SchemeTypeCommunityRules>
+			<tsl:URI>
+			</tsl:URI>
+			<tsl:URI>
+			</tsl:URI>
+		</tsl:SchemeTypeCommunityRules>
+		<tsl:SchemeTerritory></tsl:SchemeTerritory>
+		<tsl:PolicyOrLegalNotice>
+		</tsl:PolicyOrLegalNotice>
+		<tsl:HistoricalInformationPeriod>
+		</tsl:HistoricalInformationPeriod>
+		<tsl:ListIssueDateTime>
+		</tsl:ListIssueDateTime>
+		<tsl:NextUpdate>
+			<tsl:dateTime>2011-01-15T00:00:00.000Z</tsl:dateTime>
+		</tsl:NextUpdate>
+		<tsl:DistributionPoints>
+			<tsl:URI>http://tsl.belgium.be/tsl-be.xml</tsl:URI>
+		</tsl:DistributionPoints>
+	</tsl:SchemeInformation>
+</tsl:TrustServiceStatusList>

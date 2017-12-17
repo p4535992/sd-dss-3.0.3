@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tsl:TrustServiceStatusList xmlns:tsl="http://uri.etsi.org/02231/v2#" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ecc="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:tslx="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="tsl-fbfcb640-ad32-4884-ab43-e6fdfdba2890" TSLTag="http://uri.etsi.org/02231/TSLTag">
+   <tsl:SchemeInformation>
+      <tsl:TSLVersionIdentifier>3</tsl:TSLVersionIdentifier>
+      <tsl:TSLSequenceNumber>3</tsl:TSLSequenceNumber>
+      <tsl:TSLType>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/TSLType/generic</tsl:TSLType>
+      <tsl:SchemeOperatorName>
+         <tsl:Name xml:lang="en">FPS Economy, SMEs, Self-employed and     Energy - Quality and Security - Information Management</tsl:Name>
+         <tsl:Name xml:lang="nl">FOD Economie, KMO, Middenstand en Energie     - Kwaliteit en Veiligheid - Information Management</tsl:Name>
+         <tsl:Name xml:lang="fr">SPF Economie, PME, Classes moyennes et     Energie - Qualité et Sécurité - Information Management</tsl:Name>
+         <tsl:Name xml:lang="de">FÖD Wirtschaft, KMU, Mittelstand und     Energie - Qualität und Sicherheit - Informationsmanagement    </tsl:Name>
+      </tsl:SchemeOperatorName>
+      <tsl:SchemeOperatorAddress>
+         <tsl:PostalAddresses>
+            <tsl:PostalAddress xml:lang="en">
+               <tsl:StreetAddress>NG III - Koning Albert II-laan 16
+					</tsl:StreetAddress>
+               <tsl:Locality>Brussels</tsl:Locality>
+               <tsl:StateOrProvince>Brussels</tsl:StateOrProvince>
+               <tsl:PostalCode>1000</tsl:PostalCode>
+               <tsl:CountryName>BE</tsl:CountryName>
+            </tsl:PostalAddress>
+            <tsl:PostalAddress xml:lang="nl">
+               <tsl:StreetAddress>NG III - Koning Albert II-laan 16
+					</tsl:StreetAddress>
+               <tsl:Locality>Brussel</tsl:Locality>
+               <tsl:StateOrProvince>Brussel</tsl:StateOrProvince>
+               <tsl:PostalCode>1000</tsl:PostalCode>
+               <tsl:CountryName>BE</tsl:CountryName>
+            </tsl:PostalAddress>
+         </tsl:PostalAddresses>
+         <tsl:ElectronicAddress>
+            <tsl:URI>http://economie.fgov.be</tsl:URI>
+            <tsl:URI>mailto:be.sign@economie.fgov.be</tsl:URI>
+         </tsl:ElectronicAddress>
+      </tsl:SchemeOperatorAddress>
+      <tsl:SchemeName>
+         <tsl:Name xml:lang="en">BE:Supervision/Accreditation Status List     of certification services from Certification Service Providers,     which are supervised/accredited by the referenced Scheme Operator     Member State for compliance with the relevant provisions laid down     in Directive 1999/93/EC of the European Parliament and of the     Council of 13 December 1999 on a Community framework for electronic     signatures and its implementation in the referenced Member State’s     laws.</tsl:Name>
+      </tsl:SchemeName>
+      <tsl:SchemeInformationURI>
+         <tsl:URI xml:lang="en">http://tsl.belgium.be/</tsl:URI>
+         <tsl:URI xml:lang="nl">http://tsl.belgium.be/nl/</tsl:URI>
+         <tsl:URI xml:lang="fr">http://tsl.belgium.be/fr/</tsl:URI>
+      </tsl:SchemeInformationURI>
+      <tsl:StatusDeterminationApproach>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/StatusDetn/appropriate</tsl:StatusDeterminationApproach>
+      <tsl:SchemeTypeCommunityRules>
+         <tsl:URI>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/schemerules/common
+			</tsl:URI>
+         <tsl:URI>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/schemerules/BE
+			</tsl:URI>
+      </tsl:SchemeTypeCommunityRules>
+      <tsl:SchemeTerritory>BE</tsl:SchemeTerritory>
+      <tsl:PolicyOrLegalNotice>
+         <tsl:TSLLegalNotice xml:lang="en">The applicable legal
+				framework for the present TSL implementation of the Trusted List of
+				supervised/accredited Certification Service Providers for Belgium is
+				the Directive 1999/93/EC of the European Parliament and of the
+				Council of 13 December 1999 on a Community framework for electronic
+				signatures and its implementation in Belgian laws. The applicable
+				legal national framework is the Belgian CSP act of 9 July 2001 to
+				create a legal framework for the usage of electronic signatures and
+				certification services.</tsl:TSLLegalNotice>
+      </tsl:PolicyOrLegalNotice>
+      <tsl:HistoricalInformationPeriod>10959</tsl:HistoricalInformationPeriod>
+      <tsl:PointersToOtherTSL>
+         <tsl:OtherTSLPointer>
+            <tsl:ServiceDigitalIdentities>
+               <tsl:ServiceDigitalIdentity>
+                  <tsl:DigitalId>
+                     <tsl:X509Certificate>MIIDYjCCAkqgAwIBAgILAQAAAAABJv9VwPIwDQYJKoZIhvcNAQEFBQAwYzELMAkGA1UEBhMCQkUxGTAXBgNVBAoTEEdsb2JhbFNpZ24gbnYtc2ExFjAUBgNVBAsTDVNlcnZlclNpZ24gQ0ExITAfBgNVBAMTGEdsb2JhbFNpZ24gU2VydmVyU2lnbiBDQTAeFw0xMDAyMjQwOTA1MTNaFw0xMzAzMjgxMjA0NTBaMHwxCzAJBgNVBAYTAkxVMRMwEQYDVQQIEwpMdXhlbWJvdXJnMRMwEQYDVQQHEwpMdXhlbWJvdXJnMRwwGgYDVQQKExNFdXJvcGVhbiBDb21taXNzaW9uMQ4wDAYDVQQLEwVESUdJVDEVMBMGA1UEAxMMZWMuZXVyb3BhLmV1MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDRdijTNsz5RGNbnyQA98W+5P8cS18KiSSenCkyVB7Zinicxk0k0GG6ndaGecvrEHt3+s/i+bA8zmxDzon1Gc+RUj7FE5DCdMWXM1/7gE2JYW2E2Iu0NtSABvdVjLu9cP/81p2sCnynj5EOCl21E+8smfjylxt+O8JzaaaQsjKuwIDAQABo4GBMH8wEQYJYIZIAYb4QgEBBAQDAgbAMA4GA1UdDwEB/wQEAwIE8DAfBgNVHSMEGDAWgBRIu6i/W4TSV0jkYemRIJHYHSXffzA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vY3JsLmdsb2JhbHNpZ24ubmV0L1NlcnZlclNpZ24uY3JsMA0GCSqGSIb3DQEBBQUAA4IBAQA8tgDKlVnGcpyD/VVOegTqsPIvpXLpgXIv+QIOGd/VFvqI8EXiKJjr3+35n1S4U7FVYcJeSdC8I905fwatYT7b/Zf7BOY9DysFYW6NT3VqXoZZhp/b394yVxZfSIkyDLb2xkNj04/l04DyLnfpOPzZBpxRpOfZ8bRUfTp2n52mXLVO+bDgO6pYM9sAhsnDkcVZruvOd+Y0397KQ2x8omYRWCAhqYMCPgqnzQ3j7q4um8y8J93nOa5WhWFN7TFcaWEOF/lEDtfZr33XoM3+YX/+ehHIb7HSOcPb34o4tz7t7RKSQ/WXkheL2kNta0WwMx59/qVJ2Ipa78swKos5Sd2z</tsl:X509Certificate>
+                  </tsl:DigitalId>
+                  <tsl:DigitalId>
+                     <tsl:X509SubjectName>CN=ec.europa.eu,OU=DIGIT,O=European Commission,L=Luxembourg,ST=Luxembourg,C=LU</tsl:X509SubjectName>
+                  </tsl:DigitalId>
+               </tsl:ServiceDigitalIdentity>
+            </tsl:ServiceDigitalIdentities>
+            <tsl:TSLLocation>https://ec.europa.eu/information_society/policy/esignature/trusted-list/tl-hr.pdf
+				</tsl:TSLLocation>
+            <tsl:AdditionalInformation>
+               <tsl:OtherInformation>
+                  <tslx:MimeType>application/pdf</tslx:MimeType>
+               </tsl:OtherInformation>
+               <tsl:OtherInformation>
+                  <tsl:TSLType>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/TSLType/schemes</tsl:TSLType>
+               </tsl:OtherInformation>
+               <tsl:OtherInformation>
+                  <tsl:SchemeTerritory>EU</tsl:SchemeTerritory>
+               </tsl:OtherInformation>
+               <tsl:OtherInformation>
+                  <tsl:SchemeOperatorName>
+                     <tsl:Name xml:lang="en">European Commission</tsl:Name>
+                  </tsl:SchemeOperatorName>
+               </tsl:OtherInformation>
+               <tsl:OtherInformation>
+                  <tsl:SchemeTypeCommunityRules>
+                     <tsl:URI>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/schemerules/CompiledList
+							</tsl:URI>
+                  </tsl:SchemeTypeCommunityRules>
+               </tsl:OtherInformation>
+            </tsl:AdditionalInformation>
+         </tsl:OtherTSLPointer>
+         <tsl:OtherTSLPointer>
+            <tsl:ServiceDigitalIdentities>
+               <tsl:ServiceDigitalIdentity>
+                  <tsl:DigitalId>
+                     <tsl:X509Certificate>MIIFnDCCBISgAwIBAgIDAVZhMA0GCSqGSIb3DQEBBQUAMEUxCzAJBgNVBAYTAkxVMRYwFAYDVQQKEw1MdXhUcnVzdCBTLkEuMR4wHAYDVQQDExVMdXhUcnVzdCBRdWFsaWZpZWQgQ0EwHhcNMDkxMjIzMTAzNTU2WhcNMTIxMjIzMTAzNTU2WjCCAQYxCzAJBgNVBAYTAkJFMQswCQYDVQQHEwJCRTEcMBoGA1UEChMTRXVyb3BlYW4gQ29tbWlzc2lvbjELMAkGA1UECxMCTkExJDAiBgNVBAMTG0thcmVsIExvZGV3aWprIE0gRGUgVnJpZW5kdDETMBEGA1UEBBMKRGUgVnJpZW5kdDEZMBcGA1UEKhMQS2FyZWwgTG9kZXdpamsgTTEdMBsGA1UEBRMUMTAxMDAzMzIxMTAwMDQ3NDkzNzgxLDAqBgkqhkiG9w0BCQEWHUthcmVsLkRlLVZyaWVuZHRAZWMuZXVyb3BhLmV1MRwwGgYDVQQMExNQcm9mZXNzaW9uYWwgUGVyc29uMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC96JBqnjCmAk43LDuZDMu5lNGK7/UQnJBLDkUqN2Jb/STQSBJnRJchCY9DnKtqYG9cuSZDRxvIUkssqO/WpFu/I5fO9I4mvLGD9h4ot8/GkRntbEl3CnMlRKZJkAdcSHwuqnuNpfaZ4yGGIPslRy9pbRkfXSeeneJAo0Ixiu3QJwIDAQABo4ICVDCCAlAwDAYDVR0TAQH/BAIwADBgBggrBgEFBQcBAQRUMFIwIwYIKwYBBQUHMAGGF2h0dHA6Ly9vY3NwLmx1eHRydXN0Lmx1MCsGCCsGAQUFBzAChh9odHRwOi8vY2EubHV4dHJ1c3QubHUvTFRRQ0EuY3J0MIIBHQYDVR0gBIIBFDCCARAwggECBggrgSsBAQIEATCB9TCBxwYIKwYBBQUHAgIwgboagbdMdXhUcnVzdCBRdWFsaWZpZWQgQ2VydGlmaWNhdGUgb24gQ0NTRCBjb21wbGlhbnQgd2l0aCBFVFNJIFRTIDEwMSA0NTYgUUNQKyBjZXJ0aWZpY2F0ZSBwb2xpY3kuIEtleSBHZW5lcmF0aW9uIGJ5IENTUC4gU29sZSBBdXRob3Jpc2VkIFVzYWdlOiBTdXBwb3J0IG9mIFF1YWxpZmllZCBFbGVjdHJvbmljIFNpZ25hdHVyZS4wKQYIKwYBBQUHAgEWHWh0dHA6Ly9yZXBvc2l0b3J5Lmx1eHRydXN0Lmx1MAgGBgQAizABATA2BggrBgEFBQcBAwQqMCgwCAYGBACORgEBMBIGBgQAjkYBAjAIEwACAQACAQAwCAYGBACORgEEMBEGCWCGSAGG+EIBAQQEAwIFIDALBgNVHQ8EBAMCBkAwHwYDVR0jBBgwFoAUjZCjB90aE3eZTJKrTUPeP80pZAUwMQYDVR0fBCowKDAmoCSgIoYgaHR0cDovL2NybC5sdXh0cnVzdC5sdS9MVFFDQS5jcmwwEQYDVR0OBAoECEwDOyVe3IV5MA0GCSqGSIb3DQEBBQUAA4IBAQBStS9gFx5BmEv5VciG7qEPR5VzqEpBElkjXDYe68Dw7Ol1nCt51CSuAB2/UcTkfCDh6022H7+EtiUpdM6GH/7qDqZdjqYpQznbu4xkrGTMLrTA1lalhgWugGQIpmCg69kiXns/AXcuJVQSR3mA3BMvJrN5PNaALoguynWCrxRHPTUS3pT5J93jCn90ZPAGhxELRxMdZuFZ2UAn8D8XLUxiz0IK9yqdysJiLzWsQazUkZ+lzDG0mPomyRkl3LzEK8HXO3HKGr+2n760N+StYyjwywP/kS/3LoPQWfUfjWQE8jDiTgodZT4ewVSxuNrBH5Ls29aBi0YsT9NYstznKgaR</tsl:X509Certificate>
+                  </tsl:DigitalId>
+               </tsl:ServiceDigitalIdentity>
+            </tsl:ServiceDigitalIdentities>
+            <tsl:TSLLocation>https://ec.europa.eu/information_society/policy/esignature/trusted-list/tl-mp.xml
+				</tsl:TSLLocation>
+            <tsl:AdditionalInformation>
+               <tsl:OtherInformation>
+                  <tslx:MimeType>application/vnd.etsi.tsl+xml</tslx:MimeType>
+               </tsl:OtherInformation>
+               <tsl:OtherInformation>
+                  <tsl:TSLType>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/TSLType/schemes</tsl:TSLType>
+               </tsl:OtherInformation>
+               <tsl:OtherInformation>
+                  <tsl:SchemeTerritory>EU</tsl:SchemeTerritory>
+               </tsl:OtherInformation>
+               <tsl:OtherInformation>
+                  <tsl:SchemeOperatorName>
+                     <tsl:Name xml:lang="en">European Commission</tsl:Name>
+                  </tsl:SchemeOperatorName>
+               </tsl:OtherInformation>
+               <tsl:OtherInformation>
+                  <tsl:SchemeTypeCommunityRules>
+                     <tsl:URI>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/schemerules/CompiledList
+							</tsl:URI>
+                  </tsl:SchemeTypeCommunityRules>
+               </tsl:OtherInformation>
+            </tsl:AdditionalInformation>
+         </tsl:OtherTSLPointer>
+      </tsl:PointersToOtherTSL>
+      <tsl:ListIssueDateTime>2010-09-01T00:00:00.000Z</tsl:ListIssueDateTime>
+      <tsl:NextUpdate>
+         <tsl:dateTime>2011-01-15T00:00:00.000Z</tsl:dateTime>
+      </tsl:NextUpdate>
+      <tsl:DistributionPoints>
+         <tsl:URI>http://tsl.belgium.be/tsl-be.xml</tsl:URI>
+      </tsl:DistributionPoints>
+   </tsl:SchemeInformation>
+   <tsl:TrustServiceProviderList>
+      <tsl:TrustServiceProvider>
+         <tsl:TSPInformation>
+            <tsl:TSPName>
+               <tsl:Name xml:lang="en">Certipost NV/SA</tsl:Name>
+            </tsl:TSPName>
+            <tsl:TSPTradeName>
+               <tsl:Name xml:lang="en">Certipost NV/SA</tsl:Name>
+            </tsl:TSPTradeName>
+            <tsl:TSPAddress>
+               <tsl:PostalAddresses>
+                  <tsl:PostalAddress xml:lang="en">
+                     <tsl:StreetAddress>Centre Monnaie</tsl:StreetAddress>
+                     <tsl:Locality>Brussels</tsl:Locality>
+                     <tsl:StateOrProvince>Brussels</tsl:StateOrProvince>
+                     <tsl:PostalCode>1000</tsl:PostalCode>
+                     <tsl:CountryName>BE</tsl:CountryName>
+                  </tsl:PostalAddress>
+               </tsl:PostalAddresses>
+               <tsl:ElectronicAddress>
+                  <tsl:URI>http://www.certipost.be/</tsl:URI>
+                  <tsl:URI>mailto:eid.csp@staff.certipost.be</tsl:URI>
+               </tsl:ElectronicAddress>
+            </tsl:TSPAddress>
+            <tsl:TSPInformationURI>
+               <tsl:URI xml:lang="en">http://repository.eid.belgium.be/EN/Index.htm
+					</tsl:URI>
+               <tsl:URI xml:lang="en">http://www.certipost.be/dpsolutions/en/e-certificates-legal-info.html
+					</tsl:URI>
+            </tsl:TSPInformationURI>
+         </tsl:TSPInformation>
+         <tsl:TSPServices>
+            <tsl:TSPService>
+               <tsl:ServiceInformation>
+                  <tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA</tsl:ServiceTypeIdentifier>
+                  <tsl:ServiceName>
+                     <tsl:Name xml:lang="en">CN=Belgium Root CA, C=BE</tsl:Name>
+                  </tsl:ServiceName>
+                  <tsl:ServiceDigitalIdentity>
+                     <tsl:DigitalId>
+                        <tsl:X509Certificate>MIIDlDCCAnygAwIBAgIQWAsFbFMk27JQVxhf+eWmUDANBgkqhkiG9w0BAQUFADAnMQswCQYDVQQGEwJCRTEYMBYGA1UEAxMPQmVsZ2l1bSBSb290IENBMB4XDTAzMDEyNjIzMDAwMFoXDTE0MDEyNjIzMDAwMFowJzELMAkGA1UEBhMCQkUxGDAWBgNVBAMTD0JlbGdpdW0gUm9vdCBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMihcekcRkJ5eHFvna6pqKsot03HIOswkVp19eLSz8hMFJhCWK3HEcVAQGpa+XQSJ4fpnOVxTiIs0RIYqjBeoiG52bv/9nTrMQHnO35YD5EWTXaJqAFPrSJmcPpLHZXBMFjqvNll2Jq0iOtJRlLf0lMVdssUXRlJsW9q09P9vMIt7EU/CT9YvvzU7wCMgTVyv/cY6pZifSsofxVsY9LKyn0FrMhtB20yvmi4BUCuVJhWPmbxMOjvxKuTXgfeMo8SdKpbNCNUwOpszv42kqgJF+qhLc9s44Qd3ocuMws8dOIhUDiVLlzg5cYx+dtA+mqhpIqTm6chBocdJ9PEoclMsG8CAwEAAaOBuzCBuDAOBgNVHQ8BAf8EBAMCAQYwDwYDVR0TAQH/BAUwAwEB/zBCBgNVHSAEOzA5MDcGBWA4AQEBMC4wLAYIKwYBBQUHAgEWIGh0dHA6Ly9yZXBvc2l0b3J5LmVpZC5iZWxnaXVtLmJlMB0GA1UdDgQWBBQQ8AxWm2HqVzq2NZdtn925FI7b5jARBglghkgBhvhCAQEEBAMCAAcwHwYDVR0jBBgwFoAUEPAMVpth6lc6tjWXbZ/duRSO2+YwDQYJKoZIhvcNAQEFBQADggEBAMhtIlGKYfgPlm7VILKB+MbcoxYA2s1q52sq+llIp0xJN9dzoWoBZV4yveeX09AuPHPTjHuD79ZCwT+oqV0PN7p20kC9zC0/00RBSZz9Wyn0AiMiW3Ebv1jZKE4tRfTa57VjRUQRDSp/M382SbTObqkCMa5c/ciJv0J71/Fg8teH9lcuen5qE4Ad3OPQYx49cTGxYNSeCMqr8JTHSHVUgfMbrXec6LKP24OsjzRr6L/D2fVDw2RV6xq9NoY2uiGMlxoh1OotO6y67Kcdq765Sps1LxxcHVGnH1TtEpf/8m6HfUbJdNbv6z195lluBpQE5KJVhzgoaiJe4r50ErAEQyo=</tsl:X509Certificate>
+                     </tsl:DigitalId>
+                     <tsl:DigitalId>
+                        <tsl:X509SubjectName>CN=Belgium Root CA, C=BE</tsl:X509SubjectName>
+                     </tsl:DigitalId>
+                  </tsl:ServiceDigitalIdentity>
+                  <tsl:ServiceStatus>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/Svcstatus/undersupervision
+						</tsl:ServiceStatus>
+                  <tsl:StatusStartingTime>2003-01-26T23:00:00.000Z</tsl:StatusStartingTime>
+                  <tsl:ServiceInformationExtensions>
+                     <tsl:Extension Critical="false">
+                        <tsl:ExpiredCertsRevocationInfo>2011-06-28T22:00:00Z</tsl:ExpiredCertsRevocationInfo>
+                     </tsl:Extension>
+                  </tsl:ServiceInformationExtensions>
+               </tsl:ServiceInformation>
+            </tsl:TSPService>
+         </tsl:TSPServices>
+      </tsl:TrustServiceProvider>
+   </tsl:TrustServiceProviderList>
+</tsl:TrustServiceStatusList>

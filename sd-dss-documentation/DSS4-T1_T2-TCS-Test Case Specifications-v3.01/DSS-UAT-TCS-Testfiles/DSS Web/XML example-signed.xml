@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tsl:TrustServiceStatusList xmlns:tsl="http://uri.etsi.org/02231/v2#" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ecc="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:tslx="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="tsl-4b837cd1-da95-42fd-85d6-b639eade64b3" TSLTag="http://uri.etsi.org/02231/TSLTag">
+	<tsl:SchemeInformation>
+		<tsl:TSLVersionIdentifier>3</tsl:TSLVersionIdentifier>
+		<tsl:TSLSequenceNumber>4</tsl:TSLSequenceNumber>
+		<tsl:TSLType>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/TSLType/generic
+		</tsl:TSLType>
+		<tsl:SchemeOperatorName>
+			<tsl:Name xml:lang="en">FPS Economy, SMEs, Self-employed and
+				Energy - Quality and Security - Information Management</tsl:Name>
+			<tsl:Name xml:lang="nl">FOD Economie, KMO, Middenstand en Energie
+				- Kwaliteit en Veiligheid - Information Management</tsl:Name>
+			<tsl:Name xml:lang="fr">SPF Economie, PME, Classes moyennes et
+				Energie - Qualité et Sécurité - Information Management</tsl:Name>
+			<tsl:Name xml:lang="de">FÖD Wirtschaft, KMU, Mittelstand und
+				Energie - Qualität und Sicherheit - Informationsmanagement
+			</tsl:Name>
+		</tsl:SchemeOperatorName>
+		<tsl:SchemeOperatorAddress>
+			<tsl:PostalAddresses>
+				<tsl:PostalAddress xml:lang="en">
+					<tsl:StreetAddress>NG III - Koning Albert II-laan 16
+					</tsl:StreetAddress>
+					<tsl:Locality>Brussels</tsl:Locality>
+					<tsl:StateOrProvince>Brussels</tsl:StateOrProvince>
+					<tsl:PostalCode>1000</tsl:PostalCode>
+					<tsl:CountryName>BE</tsl:CountryName>
+				</tsl:PostalAddress>
+				<tsl:PostalAddress xml:lang="nl">
+					<tsl:StreetAddress>NG III - Koning Albert II-laan 16
+					</tsl:StreetAddress>
+					<tsl:Locality>Brussel</tsl:Locality>
+					<tsl:StateOrProvince>Brussel</tsl:StateOrProvince>
+					<tsl:PostalCode>1000</tsl:PostalCode>
+					<tsl:CountryName>BE</tsl:CountryName>
+				</tsl:PostalAddress>
+			</tsl:PostalAddresses>
+			<tsl:ElectronicAddress>
+				<tsl:URI>http://economie.fgov.be</tsl:URI>
+				<tsl:URI>mailto:be.sign@economie.fgov.be</tsl:URI>
+			</tsl:ElectronicAddress>
+		</tsl:SchemeOperatorAddress>
+		<tsl:SchemeName>
+			<tsl:Name xml:lang="en">BE:Supervision/Accreditation Status List
+				of certification services from Certification Service Providers,
+				which are supervised/accredited by the referenced Scheme Operator
+				Member State for compliance with the relevant provisions laid down
+				in Directive 1999/93/EC of the European Parliament and of the
+				Council of 13 December 1999 on a Community framework for electronic
+				signatures and its implementation in the referenced Member State’s
+				laws.</tsl:Name>
+		</tsl:SchemeName>
+		<tsl:SchemeInformationURI>
+			<tsl:URI xml:lang="en">http://tsl.belgium.be/</tsl:URI>
+		</tsl:SchemeInformationURI>
+		<tsl:StatusDeterminationApproach>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/StatusDetn/appropriate
+		</tsl:StatusDeterminationApproach>
+		<tsl:SchemeTypeCommunityRules>
+			<tsl:URI>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/schemerules/common
+			</tsl:URI>
+			<tsl:URI>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/schemerules/BE
+			</tsl:URI>
+		</tsl:SchemeTypeCommunityRules>
+		<tsl:SchemeTerritory>BE</tsl:SchemeTerritory>
+		<tsl:PolicyOrLegalNotice>
+			<tsl:TSLLegalNotice xml:lang="en">The applicable legal
+				framework for the present TSL implementation of the Trusted List of
+				supervised/accredited Certification Service Providers for Belgium is
+				the Directive 1999/93/EC of the European Parliament and of the
+				Council of 13 December 1999 on a Community framework for electronic
+				signatures and its implementation in Belgian laws. The applicable
+				legal national framework is the Belgian CSP act of 9 July 2001 to
+				create a legal framework for the usage of electronic signatures and
+				certification services.</tsl:TSLLegalNotice>
+		</tsl:PolicyOrLegalNotice>
+		<tsl:HistoricalInformationPeriod>10959
+		</tsl:HistoricalInformationPeriod>
+		<tsl:PointersToOtherTSL>
+			<tsl:OtherTSLPointer>
+				<tsl:ServiceDigitalIdentities>
+					<tsl:ServiceDigitalIdentity>
+						<tsl:DigitalId>
+							<tsl:X509Certificate>MIIDYjCCAkqgAwIBAgILAQAAAAABJv9VwPIwDQYJKoZIhvcNAQEFBQAwYzELMAkGA1UEBhMCQkUxGTAXBgNVBAoTEEdsb2JhbFNpZ24gbnYtc2ExFjAUBgNVBAsTDVNlcnZlclNpZ24gQ0ExITAfBgNVBAMTGEdsb2JhbFNpZ24gU2VydmVyU2lnbiBDQTAeFw0xMDAyMjQwOTA1MTNaFw0xMzAzMjgxMjA0NTBaMHwxCzAJBgNVBAYTAkxVMRMwEQYDVQQIEwpMdXhlbWJvdXJnMRMwEQYDVQQHEwpMdXhlbWJvdXJnMRwwGgYDVQQKExNFdXJvcGVhbiBDb21taXNzaW9uMQ4wDAYDVQQLEwVESUdJVDEVMBMGA1UEAxMMZWMuZXVyb3BhLmV1MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDRdijTNsz5RGNbnyQA98W+5P8cS18KiSSenCkyVB7Zinicxk0k0GG6ndaGecvrEHt3+s/i+bA8zmxDzon1Gc+RUj7FE5DCdMWXM1/7gE2JYW2E2Iu0NtSABvdVjLu9cP/81p2sCnynj5EOCl21E+8smfjylxt+O8JzaaaQsjKuwIDAQABo4GBMH8wEQYJYIZIAYb4QgEBBAQDAgbAMA4GA1UdDwEB/wQEAwIE8DAfBgNVHSMEGDAWgBRIu6i/W4TSV0jkYemRIJHYHSXffzA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vY3JsLmdsb2JhbHNpZ24ubmV0L1NlcnZlclNpZ24uY3JsMA0GCSqGSIb3DQEBBQUAA4IBAQA8tgDKlVnGcpyD/VVOegTqsPIvpXLpgXIv+QIOGd/VFvqI8EXiKJjr3+35n1S4U7FVYcJeSdC8I905fwatYT7b/Zf7BOY9DysFYW6NT3VqXoZZhp/b394yVxZfSIkyDLb2xkNj04/l04DyLnfpOPzZBpxRpOfZ8bRUfTp2n52mXLVO+bDgO6pYM9sAhsnDkcVZruvOd+Y0397KQ2x8omYRWCAhqYMCPgqnzQ3j7q4um8y8J93nOa5WhWFN7TFcaWEOF/lEDtfZr33XoM3+YX/+ehHIb7HSOcPb34o4tz7t7RKSQ/WXkheL2kNta0WwMx59/qVJ2Ipa78swKos5Sd2z
+							</tsl:X509Certificate>
+						</tsl:DigitalId>
+						<tsl:DigitalId>
+							<tsl:X509SubjectName>CN=ec.europa.eu,OU=DIGIT,O=European
+								Commission,L=Luxembourg,ST=Luxembourg,C=LU</tsl:X509SubjectName>
+						</tsl:DigitalId>
+					</tsl:ServiceDigitalIdentity>
+				</tsl:ServiceDigitalIdentities>
+				<tsl:TSLLocation>https://ec.europa.eu/information_society/policy/esignature/trusted-list/tl-hr.pdf
+				</tsl:TSLLocation>
+				<tsl:AdditionalInformation>
+					<tsl:OtherInformation>
+						<tslx:MimeType>application/pdf</tslx:MimeType>
+					</tsl:OtherInformation>
+					<tsl:OtherInformation>
+						<tsl:TSLType>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/TSLType/schemes
+						</tsl:TSLType>
+					</tsl:OtherInformation>
+					<tsl:OtherInformation>
+						<tsl:SchemeTerritory>EU</tsl:SchemeTerritory>
+					</tsl:OtherInformation>
+					<tsl:OtherInformation>
+						<tsl:SchemeOperatorName>
+							<tsl:Name xml:lang="en">European Commission</tsl:Name>
+						</tsl:SchemeOperatorName>
+					</tsl:OtherInformation>
+					<tsl:OtherInformation>
+						<tsl:SchemeTypeCommunityRules>
+							<tsl:URI>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/schemerules/CompiledList
+							</tsl:URI>
+						</tsl:SchemeTypeCommunityRules>
+					</tsl:OtherInformation>
+				</tsl:AdditionalInformation>
+			</tsl:OtherTSLPointer>
+			<tsl:OtherTSLPointer>
+				<tsl:ServiceDigitalIdentities>
+					<tsl:ServiceDigitalIdentity>
+						<tsl:DigitalId>
+							<tsl:X509Certificate>MIIFnDCCBISgAwIBAgIDAVZhMA0GCSqGSIb3DQEBBQUAMEUxCzAJBgNVBAYTAkxVMRYwFAYDVQQKEw1MdXhUcnVzdCBTLkEuMR4wHAYDVQQDExVMdXhUcnVzdCBRdWFsaWZpZWQgQ0EwHhcNMDkxMjIzMTAzNTU2WhcNMTIxMjIzMTAzNTU2WjCCAQYxCzAJBgNVBAYTAkJFMQswCQYDVQQHEwJCRTEcMBoGA1UEChMTRXVyb3BlYW4gQ29tbWlzc2lvbjELMAkGA1UECxMCTkExJDAiBgNVBAMTG0thcmVsIExvZGV3aWprIE0gRGUgVnJpZW5kdDETMBEGA1UEBBMKRGUgVnJpZW5kdDEZMBcGA1UEKhMQS2FyZWwgTG9kZXdpamsgTTEdMBsGA1UEBRMUMTAxMDAzMzIxMTAwMDQ3NDkzNzgxLDAqBgkqhkiG9w0BCQEWHUthcmVsLkRlLVZyaWVuZHRAZWMuZXVyb3BhLmV1MRwwGgYDVQQMExNQcm9mZXNzaW9uYWwgUGVyc29uMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC96JBqnjCmAk43LDuZDMu5lNGK7/UQnJBLDkUqN2Jb/STQSBJnRJchCY9DnKtqYG9cuSZDRxvIUkssqO/WpFu/I5fO9I4mvLGD9h4ot8/GkRntbEl3CnMlRKZJkAdcSHwuqnuNpfaZ4yGGIPslRy9pbRkfXSeeneJAo0Ixiu3QJwIDAQABo4ICVDCCAlAwDAYDVR0TAQH/BAIwADBgBggrBgEFBQcBAQRUMFIwIwYIKwYBBQUHMAGGF2h0dHA6Ly9vY3NwLmx1eHRydXN0Lmx1MCsGCCsGAQUFBzAChh9odHRwOi8vY2EubHV4dHJ1c3QubHUvTFRRQ0EuY3J0MIIBHQYDVR0gBIIBFDCCARAwggECBggrgSsBAQIEATCB9TCBxwYIKwYBBQUHAgIwgboagbdMdXhUcnVzdCBRdWFsaWZpZWQgQ2VydGlmaWNhdGUgb24gQ0NTRCBjb21wbGlhbnQgd2l0aCBFVFNJIFRTIDEwMSA0NTYgUUNQKyBjZXJ0aWZpY2F0ZSBwb2xpY3kuIEtleSBHZW5lcmF0aW9uIGJ5IENTUC4gU29sZSBBdXRob3Jpc2VkIFVzYWdlOiBTdXBwb3J0IG9mIFF1YWxpZmllZCBFbGVjdHJvbmljIFNpZ25hdHVyZS4wKQYIKwYBBQUHAgEWHWh0dHA6Ly9yZXBvc2l0b3J5Lmx1eHRydXN0Lmx1MAgGBgQAizABATA2BggrBgEFBQcBAwQqMCgwCAYGBACORgEBMBIGBgQAjkYBAjAIEwACAQACAQAwCAYGBACORgEEMBEGCWCGSAGG+EIBAQQEAwIFIDALBgNVHQ8EBAMCBkAwHwYDVR0jBBgwFoAUjZCjB90aE3eZTJKrTUPeP80pZAUwMQYDVR0fBCowKDAmoCSgIoYgaHR0cDovL2NybC5sdXh0cnVzdC5sdS9MVFFDQS5jcmwwEQYDVR0OBAoECEwDOyVe3IV5MA0GCSqGSIb3DQEBBQUAA4IBAQBStS9gFx5BmEv5VciG7qEPR5VzqEpBElkjXDYe68Dw7Ol1nCt51CSuAB2/UcTkfCDh6022H7+EtiUpdM6GH/7qDqZdjqYpQznbu4xkrGTMLrTA1lalhgWugGQIpmCg69kiXns/AXcuJVQSR3mA3BMvJrN5PNaALoguynWCrxRHPTUS3pT5J93jCn90ZPAGhxELRxMdZuFZ2UAn8D8XLUxiz0IK9yqdysJiLzWsQazUkZ+lzDG0mPomyRkl3LzEK8HXO3HKGr+2n760N+StYyjwywP/kS/3LoPQWfUfjWQE8jDiTgodZT4ewVSxuNrBH5Ls29aBi0YsT9NYstznKgaR
+							</tsl:X509Certificate>
+						</tsl:DigitalId>
+						<tsl:DigitalId>
+							<tsl:X509SubjectName>2.5.4.12=#131350726f66657373696f6e616c20506572736f6e,1.2.840.113549.1.9.1=#161d4b6172656c2e44652d567269656e64744065632e6575726f70612e6575,2.5.4.5=#13143130313030333332313130303034373439333738,2.5.4.42=#13104b6172656c204c6f646577696a6b204d,2.5.4.4=#130a446520567269656e6474,CN=Karel
+								Lodewijk M De Vriendt,OU=NA,O=European Commission,L=BE,C=BE
+							</tsl:X509SubjectName>
+						</tsl:DigitalId>
+						<tsl:DigitalId>
+							<tsl:X509SKI>TAM7JV7chXk=</tsl:X509SKI>
+						</tsl:DigitalId>
+					</tsl:ServiceDigitalIdentity>
+				</tsl:ServiceDigitalIdentities>
+				<tsl:TSLLocation>https://ec.europa.eu/information_society/policy/esignature/trusted-list/tl-mp.xml
+				</tsl:TSLLocation>
+				<tsl:AdditionalInformation>
+					<tsl:OtherInformation>
+						<tslx:MimeType>application/vnd.etsi.tsl+xml</tslx:MimeType>
+					</tsl:OtherInformation>
+					<tsl:OtherInformation>
+						<tsl:TSLType>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/TSLType/schemes
+						</tsl:TSLType>
+					</tsl:OtherInformation>
+					<tsl:OtherInformation>
+						<tsl:SchemeTerritory>EU</tsl:SchemeTerritory>
+					</tsl:OtherInformation>
+					<tsl:OtherInformation>
+						<tsl:SchemeOperatorName>
+							<tsl:Name xml:lang="en">European Commission</tsl:Name>
+						</tsl:SchemeOperatorName>
+					</tsl:OtherInformation>
+					<tsl:OtherInformation>
+						<tsl:SchemeTypeCommunityRules>
+							<tsl:URI>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/schemerules/CompiledList
+							</tsl:URI>
+						</tsl:SchemeTypeCommunityRules>
+					</tsl:OtherInformation>
+				</tsl:AdditionalInformation>
+			</tsl:OtherTSLPointer>
+		</tsl:PointersToOtherTSL>
+		<tsl:ListIssueDateTime>2011-01-01T00:00:00.000Z
+		</tsl:ListIssueDateTime>
+		<tsl:NextUpdate>
+			<tsl:dateTime>2011-05-15T00:00:00.000Z</tsl:dateTime>
+		</tsl:NextUpdate>
+		<tsl:DistributionPoints>
+			<tsl:URI>http://tsl.belgium.be/tsl-be.xml</tsl:URI>
+		</tsl:DistributionPoints>
+	</tsl:SchemeInformation>
+	<tsl:TrustServiceProviderList>
+		<tsl:TrustServiceProvider>
+			<tsl:TSPInformation>
+				<tsl:TSPName>
+					<tsl:Name xml:lang="en">Certipost NV/SA</tsl:Name>
+				</tsl:TSPName>
+				<tsl:TSPTradeName>
+					<tsl:Name xml:lang="en">Certipost NV/SA</tsl:Name>
+				</tsl:TSPTradeName>
+				<tsl:TSPAddress>
+					<tsl:PostalAddresses>
+						<tsl:PostalAddress xml:lang="en">
+							<tsl:StreetAddress>Centre Monnaie</tsl:StreetAddress>
+							<tsl:Locality>Brussels</tsl:Locality>
+							<tsl:StateOrProvince>Brussels</tsl:StateOrProvince>
+							<tsl:PostalCode>1000</tsl:PostalCode>
+							<tsl:CountryName>BE</tsl:CountryName>
+						</tsl:PostalAddress>
+					</tsl:PostalAddresses>
+					<tsl:ElectronicAddress>
+						<tsl:URI>http://www.certipost.be/</tsl:URI>
+						<tsl:URI>mailto:eid.csp@staff.certipost.be</tsl:URI>
+					</tsl:ElectronicAddress>
+				</tsl:TSPAddress>
+				<tsl:TSPInformationURI>
+					<tsl:URI xml:lang="en">http://repository.eid.belgium.be/EN/Index.htm
+					</tsl:URI>
+					<tsl:URI xml:lang="en">http://www.certipost.be/dpsolutions/en/e-certificates-legal-info.html
+					</tsl:URI>
+				</tsl:TSPInformationURI>
+			</tsl:TSPInformation>
+			<tsl:TSPServices>
+				<tsl:TSPService>
+					<tsl:ServiceInformation>
+						<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC
+						</tsl:ServiceTypeIdentifier>
+						<tsl:ServiceName>
+							<tsl:Name xml:lang="en">CN=Belgium Root CA, C=BE</tsl:Name>
+						</tsl:ServiceName>
+						<tsl:ServiceDigitalIdentity>
+							<tsl:DigitalId>
+								<tsl:X509Certificate>MIIDlDCCAnygAwIBAgIQWAsFbFMk27JQVxhf+eWmUDANBgkqhkiG9w0BAQUFADAnMQswCQYDVQQGEwJCRTEYMBYGA1UEAxMPQmVsZ2l1bSBSb290IENBMB4XDTAzMDEyNjIzMDAwMFoXDTE0MDEyNjIzMDAwMFowJzELMAkGA1UEBhMCQkUxGDAWBgNVBAMTD0JlbGdpdW0gUm9vdCBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMihcekcRkJ5eHFvna6pqKsot03HIOswkVp19eLSz8hMFJhCWK3HEcVAQGpa+XQSJ4fpnOVxTiIs0RIYqjBeoiG52bv/9nTrMQHnO35YD5EWTXaJqAFPrSJmcPpLHZXBMFjqvNll2Jq0iOtJRlLf0lMVdssUXRlJsW9q09P9vMIt7EU/CT9YvvzU7wCMgTVyv/cY6pZifSsofxVsY9LKyn0FrMhtB20yvmi4BUCuVJhWPmbxMOjvxKuTXgfeMo8SdKpbNCNUwOpszv42kqgJF+qhLc9s44Qd3ocuMws8dOIhUDiVLlzg5cYx+dtA+mqhpIqTm6chBocdJ9PEoclMsG8CAwEAAaOBuzCBuDAOBgNVHQ8BAf8EBAMCAQYwDwYDVR0TAQH/BAUwAwEB/zBCBgNVHSAEOzA5MDcGBWA4AQEBMC4wLAYIKwYBBQUHAgEWIGh0dHA6Ly9yZXBvc2l0b3J5LmVpZC5iZWxnaXVtLmJlMB0GA1UdDgQWBBQQ8AxWm2HqVzq2NZdtn925FI7b5jARBglghkgBhvhCAQEEBAMCAAcwHwYDVR0jBBgwFoAUEPAMVpth6lc6tjWXbZ/duRSO2+YwDQYJKoZIhvcNAQEFBQADggEBAMhtIlGKYfgPlm7VILKB+MbcoxYA2s1q52sq+llIp0xJN9dzoWoBZV4yveeX09AuPHPTjHuD79ZCwT+oqV0PN7p20kC9zC0/00RBSZz9Wyn0AiMiW3Ebv1jZKE4tRfTa57VjRUQRDSp/M382SbTObqkCMa5c/ciJv0J71/Fg8teH9lcuen5qE4Ad3OPQYx49cTGxYNSeCMqr8JTHSHVUgfMbrXec6LKP24OsjzRr6L/D2fVDw2RV6xq9NoY2uiGMlxoh1OotO6y67Kcdq765Sps1LxxcHVGnH1TtEpf/8m6HfUbJdNbv6z195lluBpQE5KJVhzgoaiJe4r50ErAEQyo=
+								</tsl:X509Certificate>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SubjectName>CN=Belgium Root CA,C=BE
+								</tsl:X509SubjectName>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SKI>EPAMVpth6lc6tjWXbZ/duRSO2+Y=</tsl:X509SKI>
+							</tsl:DigitalId>
+						</tsl:ServiceDigitalIdentity>
+						<tsl:ServiceStatus>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/Svcstatus/undersupervision
+						</tsl:ServiceStatus>
+						<tsl:StatusStartingTime>2003-01-26T23:00:00.000Z
+						</tsl:StatusStartingTime>
+						<tsl:ServiceInformationExtensions>
+							<tsl:Extension Critical="true">
+								<ecc:Qualifications>
+									<ecc:QualificationElement>
+										<ecc:Qualifiers>
+											<ecc:Qualifier uri="http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/SvcInfoExt/QCSSCDStatusAsInCert"/>
+										</ecc:Qualifiers>
+										<ecc:CriteriaList assert="atLeastOne">
+											<ecc:PolicySet>
+												<ecc:PolicyIdentifier>
+													<xades:Identifier>2.16.56.1.1.1.2.1</xades:Identifier>
+													<xades:Description>urn:be:qc:natural:citizen
+													</xades:Description>
+												</ecc:PolicyIdentifier>
+												<ecc:PolicyIdentifier>
+													<xades:Identifier>2.16.56.1.1.1.7.1</xades:Identifier>
+													<xades:Description>urn:be:qc:natural:foreigner
+													</xades:Description>
+												</ecc:PolicyIdentifier>
+											</ecc:PolicySet>
+										</ecc:CriteriaList>
+									</ecc:QualificationElement>
+								</ecc:Qualifications>
+								<tsl:AdditionalServiceInformation>
+									<tsl:URI xml:lang="en">http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/SvcInfoExt/RootCA-QC
+									</tsl:URI>
+								</tsl:AdditionalServiceInformation>
+							</tsl:Extension>
+						</tsl:ServiceInformationExtensions>
+					</tsl:ServiceInformation>
+				</tsl:TSPService>
+				<tsl:TSPService>
+					<tsl:ServiceInformation>
+						<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC
+						</tsl:ServiceTypeIdentifier>
+						<tsl:ServiceName>
+							<tsl:Name xml:lang="en">CN=Belgium Root CA2, C=BE</tsl:Name>
+						</tsl:ServiceName>
+						<tsl:ServiceDigitalIdentity>
+							<tsl:DigitalId>
+								<tsl:X509Certificate>MIIDjjCCAnagAwIBAgIIKv++n6Lw6YcwDQYJKoZIhvcNAQEFBQAwKDELMAkGA1UEBhMCQkUxGTAXBgNVBAMTEEJlbGdpdW0gUm9vdCBDQTIwHhcNMDcxMDA0MTAwMDAwWhcNMjExMjE1MDgwMDAwWjAoMQswCQYDVQQGEwJCRTEZMBcGA1UEAxMQQmVsZ2l1bSBSb290IENBMjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMZzQh6S/3UPi790hqc/7bIYLS2X+an7mEoj39WN4IzGMhwWLQdC1i22bi+n9fzGhYJdld61IgDMqFNAn68KNaJ6x+HK92AQZw6nUHMXU5WfIp8MXW+2QbyM69odRr2nlL/zGsvU+40OHjPIltfsjFPekx40HopQcSZYtF3CiInaYNKJIT/e1wEYNm7hLHADBGXvmAYrXR5i3FVr/mZkIV/4L+HXmymvb82fqgxG0YjFnaKVn6w/Fa7yYd/vw2uaItgscf1YHewApDgglVrH1Tdjuk+bqv5WRi5j2Qsj1Yr6tSPwiRuhFA0m2kHwOI8w7QUmecFLTqG4flVSOmlGhHUCAwEAAaOBuzCBuDAOBgNVHQ8BAf8EBAMCAQYwDwYDVR0TAQH/BAUwAwEB/zBCBgNVHSAEOzA5MDcGBWA4CQEBMC4wLAYIKwYBBQUHAgEWIGh0dHA6Ly9yZXBvc2l0b3J5LmVpZC5iZWxnaXVtLmJlMB0GA1UdDgQWBBSFiuv0xbu+DlkDlN7WgAEV4xCcOTARBglghkgBhvhCAQEEBAMCAAcwHwYDVR0jBBgwFoAUhYrr9MW7vg5ZA5Te1oABFeMQnDkwDQYJKoZIhvcNAQEFBQADggEBAFHYhd27V2/MoGy1oyCcUwnzSgEMdL8rs5qauhjyC4isHLMzr87lEwEnkoRYmhC598wUkmt0FoqW6FHvv/pKJaeJtmMrXZRY0c8RcrYeuTlBFk0pvDVTC9rejg7NqZV3JcqUWumyaa7YwBO+mPyWnIR/VRPmPIfjvCCkpDZoa01gZhz5v6yAlGYuuUGK02XThIAC71AdXkbc98m6tTR8KvPG2F9fVJ3bTc0R5/0UAoNmXsimABKgX77OFP67H6dh96tK8QYUn8pJQsKpvO2FsauBQeYNxUJpU4c5nUwfAA4+Bw11V0SoU7Q2dmSZ3G7rPUZuFF1eR1ONeE3gJ7uOhXY=
+								</tsl:X509Certificate>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SubjectName>CN=Belgium Root CA2,C=BE
+								</tsl:X509SubjectName>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SKI>hYrr9MW7vg5ZA5Te1oABFeMQnDk=</tsl:X509SKI>
+							</tsl:DigitalId>
+						</tsl:ServiceDigitalIdentity>
+						<tsl:ServiceStatus>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/Svcstatus/undersupervision
+						</tsl:ServiceStatus>
+						<tsl:StatusStartingTime>2007-10-04T10:00:00.000Z
+						</tsl:StatusStartingTime>
+						<tsl:ServiceInformationExtensions>
+							<tsl:Extension Critical="true">
+								<ecc:Qualifications>
+									<ecc:QualificationElement>
+										<ecc:Qualifiers>
+											<ecc:Qualifier uri="http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/SvcInfoExt/QCSSCDStatusAsInCert"/>
+										</ecc:Qualifiers>
+										<ecc:CriteriaList assert="atLeastOne">
+											<ecc:PolicySet>
+												<ecc:PolicyIdentifier>
+													<xades:Identifier>2.16.56.9.1.1.2.1</xades:Identifier>
+													<xades:Description>urn:be:qc:natural:citizen
+													</xades:Description>
+												</ecc:PolicyIdentifier>
+												<ecc:PolicyIdentifier>
+													<xades:Identifier>2.16.56.9.1.1.7.1</xades:Identifier>
+													<xades:Description>urn:be:qc:natural:foreigner
+													</xades:Description>
+												</ecc:PolicyIdentifier>
+											</ecc:PolicySet>
+										</ecc:CriteriaList>
+									</ecc:QualificationElement>
+								</ecc:Qualifications>
+								<tsl:AdditionalServiceInformation>
+									<tsl:URI xml:lang="en">http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/SvcInfoExt/RootCA-QC
+									</tsl:URI>
+								</tsl:AdditionalServiceInformation>
+							</tsl:Extension>
+						</tsl:ServiceInformationExtensions>
+					</tsl:ServiceInformation>
+				</tsl:TSPService>
+				<tsl:TSPService>
+					<tsl:ServiceInformation>
+						<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC
+						</tsl:ServiceTypeIdentifier>
+						<tsl:ServiceName>
+							<tsl:Name xml:lang="en">CN=Certipost E-Trust Primary
+								Qualified CA, O=Certipost s.a./n.v., C=BE</tsl:Name>
+						</tsl:ServiceName>
+						<tsl:ServiceDigitalIdentity>
+							<tsl:DigitalId>
+								<tsl:X509Certificate>MIID3jCCAsagAwIBAgILBAAAAAABBVJkxCUwDQYJKoZIhvcNAQEFBQAwXDELMAkGA1UEBhMCQkUxHDAaBgNVBAoTE0NlcnRpcG9zdCBzLmEuL24udi4xLzAtBgNVBAMTJkNlcnRpcG9zdCBFLVRydXN0IFByaW1hcnkgUXVhbGlmaWVkIENBMB4XDTA1MDcyNjEwMDAwMFoXDTIwMDcyNjEwMDAwMFowXDELMAkGA1UEBhMCQkUxHDAaBgNVBAoTE0NlcnRpcG9zdCBzLmEuL24udi4xLzAtBgNVBAMTJkNlcnRpcG9zdCBFLVRydXN0IFByaW1hcnkgUXVhbGlmaWVkIENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAriDSeNuaoHKcBFIlLG1S2NcniTOg4bLV+zB1ay1/HGeODucfEt8XeRi7tBtv+D11G55nN/Dx+g917YadAwShKHAtPLJroHNR4zWpdKUIPpSFJzYqqnJk/HfudpQccuu/Msd3A2olggkFr19gPH+sG7yS6Dx0Wc7xfFQtOK6W8KxvoTMMIVoBuiMgW6CGAtVT3EkfqDKzrztGO7bvnzmzOAvneor2KPmnb1ApyHlYi0nSpdiFflbxaRV4RBE116VUPqtmJdLb4xjxLivicSMJN2RDQnQylnfel6LploacJUQJ1AGdUX4ztwlE5YCXDWRbdxiXpUupnhCdh/pWp88KfQIDAQABo4GgMIGdMA4GA1UdDwEB/wQEAwIBBjAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTwePkHdxC73B6hrnn7MBDbxjT4FzBIBgNVHSAEQTA/MD0GCQOQDgcBAAECADAwMC4GCCsGAQUFBwIBFiJodHRwOi8vd3d3LmUtdHJ1c3QuYmUvQ1BTL1FOY2VydHMgMBEGCWCGSAGG+EIBAQQEAwIABzANBgkqhkiG9w0BAQUFAAOCAQEAbOHYX3RY6XBJ1soNLFjaymS2UU/DBmQB6YpzHZ7PRni/O4WG4j1KGJQqgXdvgvhv9O4i/J0YIXJguxiAgpX7+feVJIFmwbXDtdK2dos7gVy4oQ4rARSLgAlA7vhgTBnkF80nAbNjEgWkCMm0v55QTrXeD5IzZnXQPecjfOolcXz+Pi42eaHlKVAjNQWVeLufeWTcV0gnLOJcM83Cu35od6cvo0kXcuEAhGt9eq85CyzV2FdkMmyECmp2OtOszZ2x5zfc7AwvxVdg34j1Q7EBZCa0J4IQsqNQ75fmf7+Rh7PbkKkq4no0bHNJ9OiNLmuK3aGKf2PQv1ger8w/klAt0Q==
+								</tsl:X509Certificate>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SubjectName>CN=Certipost E-Trust Primary Qualified
+									CA,O=Certipost s.a./n.v.,C=BE</tsl:X509SubjectName>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SKI>8Hj5B3cQu9weoa55+zAQ28Y0+Bc=</tsl:X509SKI>
+							</tsl:DigitalId>
+						</tsl:ServiceDigitalIdentity>
+						<tsl:ServiceStatus>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/Svcstatus/undersupervision
+						</tsl:ServiceStatus>
+						<tsl:StatusStartingTime>2005-07-26T10:00:00.000Z
+						</tsl:StatusStartingTime>
+						<tsl:ServiceInformationExtensions>
+							<tsl:Extension Critical="true">
+								<ecc:Qualifications>
+									<ecc:QualificationElement>
+										<ecc:Qualifiers>
+											<ecc:Qualifier uri="http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/SvcInfoExt/QCForLegalPerson"/>
+										</ecc:Qualifiers>
+										<ecc:CriteriaList assert="atLeastOne">
+											<ecc:PolicySet>
+												<ecc:PolicyIdentifier>
+													<xades:Identifier>0.3.2062.7.1.1.112.1</xades:Identifier>
+												</ecc:PolicyIdentifier>
+												<ecc:PolicyIdentifier>
+													<xades:Identifier>0.3.2062.7.1.1.140.1</xades:Identifier>
+												</ecc:PolicyIdentifier>
+												<ecc:PolicyIdentifier>
+													<xades:Identifier>0.3.2062.7.1.1.111.1</xades:Identifier>
+												</ecc:PolicyIdentifier>
+											</ecc:PolicySet>
+										</ecc:CriteriaList>
+									</ecc:QualificationElement>
+								</ecc:Qualifications>
+								<tsl:AdditionalServiceInformation>
+									<tsl:URI xml:lang="en">http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/SvcInfoExt/RootCA-QC
+									</tsl:URI>
+								</tsl:AdditionalServiceInformation>
+							</tsl:Extension>
+						</tsl:ServiceInformationExtensions>
+					</tsl:ServiceInformation>
+				</tsl:TSPService>
+			</tsl:TSPServices>
+		</tsl:TrustServiceProvider>
+	</tsl:TrustServiceProviderList>
+<ds:Signature Id="sigId-idfa0f5c9d603fdf63bbc08d681b6d4519"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><ds:XPath>not(ancestor-or-self::ds:Signature)</ds:XPath></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>mp89FRmZyTTg7mVHeg9EtWcpHoU=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-idfa0f5c9d603fdf63bbc08d681b6d4519"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>vJTNrhBfe9IJz3/eSTJELW5kiK0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-idfa0f5c9d603fdf63bbc08d681b6d4519">eZbcquEvTf3nB9uqodra2Zr+QVyapPJ+B6Ec5GtUSdonAlbIPhBbx29G59o8F76q4YDd+Xhz0OGw9zZsuojD5o6y80kuDi4IfQ4BmzFGmejyHM7Pl+Y45IUdqplhL8mJnJ+7PZuELAO7QH3qC0Qo8I8UP8wYqvilEMKp+fe1bbA=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFWDCCBECgAwIBAgIBATANBgkqhkiG9w0BAQUFADBxMQswCQYDVQQGEwJCQjEUMBIGA1UEChML
+RFNTIFByb2plY3QxETAPBgNVBAsTCERTUy1URVNUMRAwDgYDVQQHEwdCQiBDaXR5MScwJQYDVQQD
+Ex5CQi5Sb290Q0ExLkNBUUNQMSBRdWFsaWZpZWQgQ0EwHhcNMTAxMDEwMDgwMDAwWhcNMTIwNTEx
+MTIxMzIyWjBjMQswCQYDVQQGEwJCQjEUMBIGA1UEChMLRFNTIFByb2plY3QxETAPBgNVBAsTCERT
+Uy1URVNUMSswKQYDVQQDEyJCQi5Sb290Q0ExLkNBUUNQMSBDaXRpemVuIE51bWJlciAxMIGfMA0G
+CSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfZ9R3cnhix/wVqezZYhVRDVnrnnSVTfjs+8JH197Pjb5v
+jTL5c3dDUWBkUb5NzcDDEsPTRrQwwtV5L6ykseAwTX46SIpHU5d7qwvvo02KrDvXYHclZJKYLTqU
+D9GmGtE+g+LMe9gQAs37ShUxPJmPhJ0vbMX6+FbNsmbCpw0eNwIDAQABo4ICizCCAocwDAYDVR0T
+AQH/BAIwADAdBgNVHQ4EFgQUYiAyn77ST0i+vWJ9J21mVgMkU2cwgaYGA1UdIwSBnjCBm4AUwxCB
+ZM9DdEo6REcYLoRhfdDkcwChfqR8MHoxCzAJBgNVBAYTAkJCMRQwEgYDVQQKEwtEU1MgUHJvamVj
+dDERMA8GA1UECxMIRFNTLVRFU1QxEDAOBgNVBAcTB0JCIENpdHkxMDAuBgNVBAMTJ0JCLlJvb3RD
+QTEgUm9vdCBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eYIDAMoBMAsGA1UdDwQEAwIE0DCBtgYIKwYB
+BQUHAQEEgakwgaYwUAYIKwYBBQUHMAGGRGh0dHA6Ly9kZ21hcmt0LWRzcy9kc3MtdGVzdGRhdGEv
+QkIvQkIuUm9vdENBMS9CQi5Sb290Q0ExLkNBUUNQMS9vY3NwMFIGCCsGAQUFBzAChkZodHRwOi8v
+ZGdtYXJrdC1kc3MvZHNzLXRlc3RkYXRhL0JCL0JCLlJvb3RDQTEvQkIuUm9vdENBMS5DQVFDUDEv
+Y2EuY3J0MGAGA1UdHwRZMFcwVaBToFGGT2h0dHA6Ly9kZ21hcmt0LWRzcy9kc3MtdGVzdGRhdGEv
+QkIvQkIuUm9vdENBMS9CQi5Sb290Q0ExLkNBUUNQMS9jdXJyZW50LWNybC5jcmwwagYDVR0gBGMw
+YTBfBgQqAwQFMFcwVQYIKwYBBQUHAgEWSWh0dHA6Ly9kZ21hcmt0LWRzcy9kc3MtdGVzdGRhdGEv
+QkIvQkIuUm9vdENBMS9CQi5Sb290Q0ExLkNBUUNQMS9wb2xpY3lfcWMwGwYIKwYBBQUHAQMBAf8E
+DDAKMAgGBgQAizABAjANBgkqhkiG9w0BAQUFAAOCAQEAWWdEPBWoqN7pd0a+nK+vyv1WYounlS9l
+ZGJEBGyHrycQ+EOXldpImtyHnOH76zXbfG4C7DAjgrXTuwAT87JAgSAXjSyBZc+lFuGmkRytaRYE
+4oayjvm3hqEx5HsjHmQbeAawcFp9dVdlH0G7xqc/HJLobEgKxG1HODrRb6zghlRqvyPFDUvQwmYI
+UHAYhPgb2o8JMizEI9eGEygByQqAcYg1WvfwjOA9GlwGvqzuEvSO/NV32u5UU4SOzuWwSnrpIqQw
+hkxbNVU7G0iy2U8lX8uJRrhU2jXB9JzDXXe9Blb+LeqauAO/kC6ACfqxYpGHY6XJza3OH43bhouA
+383bpQ==</ds:X509Certificate><ds:X509Certificate>MIIFWDCCBECgAwIBAgIBATANBgkqhkiG9w0BAQUFADBxMQswCQYDVQQGEwJCQjEUMBIGA1UEChML
+RFNTIFByb2plY3QxETAPBgNVBAsTCERTUy1URVNUMRAwDgYDVQQHEwdCQiBDaXR5MScwJQYDVQQD
+Ex5CQi5Sb290Q0ExLkNBUUNQMSBRdWFsaWZpZWQgQ0EwHhcNMTAxMDEwMDgwMDAwWhcNMTIwNTEx
+MTIxMzIyWjBjMQswCQYDVQQGEwJCQjEUMBIGA1UEChMLRFNTIFByb2plY3QxETAPBgNVBAsTCERT
+Uy1URVNUMSswKQYDVQQDEyJCQi5Sb290Q0ExLkNBUUNQMSBDaXRpemVuIE51bWJlciAxMIGfMA0G
+CSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfZ9R3cnhix/wVqezZYhVRDVnrnnSVTfjs+8JH197Pjb5v
+jTL5c3dDUWBkUb5NzcDDEsPTRrQwwtV5L6ykseAwTX46SIpHU5d7qwvvo02KrDvXYHclZJKYLTqU
+D9GmGtE+g+LMe9gQAs37ShUxPJmPhJ0vbMX6+FbNsmbCpw0eNwIDAQABo4ICizCCAocwDAYDVR0T
+AQH/BAIwADAdBgNVHQ4EFgQUYiAyn77ST0i+vWJ9J21mVgMkU2cwgaYGA1UdIwSBnjCBm4AUwxCB
+ZM9DdEo6REcYLoRhfdDkcwChfqR8MHoxCzAJBgNVBAYTAkJCMRQwEgYDVQQKEwtEU1MgUHJvamVj
+dDERMA8GA1UECxMIRFNTLVRFU1QxEDAOBgNVBAcTB0JCIENpdHkxMDAuBgNVBAMTJ0JCLlJvb3RD
+QTEgUm9vdCBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eYIDAMoBMAsGA1UdDwQEAwIE0DCBtgYIKwYB
+BQUHAQEEgakwgaYwUAYIKwYBBQUHMAGGRGh0dHA6Ly9kZ21hcmt0LWRzcy9kc3MtdGVzdGRhdGEv
+QkIvQkIuUm9vdENBMS9CQi5Sb290Q0ExLkNBUUNQMS9vY3NwMFIGCCsGAQUFBzAChkZodHRwOi8v
+ZGdtYXJrdC1kc3MvZHNzLXRlc3RkYXRhL0JCL0JCLlJvb3RDQTEvQkIuUm9vdENBMS5DQVFDUDEv
+Y2EuY3J0MGAGA1UdHwRZMFcwVaBToFGGT2h0dHA6Ly9kZ21hcmt0LWRzcy9kc3MtdGVzdGRhdGEv
+QkIvQkIuUm9vdENBMS9CQi5Sb290Q0ExLkNBUUNQMS9jdXJyZW50LWNybC5jcmwwagYDVR0gBGMw
+YTBfBgQqAwQFMFcwVQYIKwYBBQUHAgEWSWh0dHA6Ly9kZ21hcmt0LWRzcy9kc3MtdGVzdGRhdGEv
+QkIvQkIuUm9vdENBMS9CQi5Sb290Q0ExLkNBUUNQMS9wb2xpY3lfcWMwGwYIKwYBBQUHAQMBAf8E
+DDAKMAgGBgQAizABAjANBgkqhkiG9w0BAQUFAAOCAQEAWWdEPBWoqN7pd0a+nK+vyv1WYounlS9l
+ZGJEBGyHrycQ+EOXldpImtyHnOH76zXbfG4C7DAjgrXTuwAT87JAgSAXjSyBZc+lFuGmkRytaRYE
+4oayjvm3hqEx5HsjHmQbeAawcFp9dVdlH0G7xqc/HJLobEgKxG1HODrRb6zghlRqvyPFDUvQwmYI
+UHAYhPgb2o8JMizEI9eGEygByQqAcYg1WvfwjOA9GlwGvqzuEvSO/NV32u5UU4SOzuWwSnrpIqQw
+hkxbNVU7G0iy2U8lX8uJRrhU2jXB9JzDXXe9Blb+LeqauAO/kC6ACfqxYpGHY6XJza3OH43bhouA
+383bpQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><QualifyingProperties xmlns="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" Target="#sigId-idfa0f5c9d603fdf63bbc08d681b6d4519"><SignedProperties Id="xades-idfa0f5c9d603fdf63bbc08d681b6d4519"><SignedSignatureProperties><SigningTime>2011-06-24T12:45:02Z</SigningTime><SigningCertificate><Cert><CertDigest><ns2:DigestMethod Algorithm="SHA-1"/><ns2:DigestValue>49eURVZxBD9nt7WXZdnxzoPXNfc=</ns2:DigestValue></CertDigest><IssuerSerial><ns2:X509IssuerName>CN=BB.RootCA1.CAQCP1 Qualified CA, L=BB City, OU=DSS-TEST, O=DSS Project, C=BB</ns2:X509IssuerName><ns2:X509SerialNumber>1</ns2:X509SerialNumber></IssuerSerial></Cert></SigningCertificate></SignedSignatureProperties></SignedProperties></QualifyingProperties></ds:Object></ds:Signature></tsl:TrustServiceStatusList>
